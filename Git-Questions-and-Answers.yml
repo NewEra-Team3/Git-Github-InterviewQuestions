@@ -1,0 +1,25 @@
+  1. What is git commit?:
+      2. What is git stash?:
+          3. What are the steps to unstage files and discard the changes in working directory?:
+              4. What is git branch?:
+                  5. How do you check if git is insalled?:
+                      6. How do you know the status of your local repository and what other information does it show?:
+                          7. What are the different ways to add/stage files/changes to the git repository?:
+                              8. Can we combine commands when working with commands in git? How?:
+                                  9. What is the difference between git pull and git fetch?:
+                                      10. How do you revert a previous commit in git?:
+                                          11. What is git cherry-pick?:
+                                              12. What is the function of git push?:
+                                                  13. What is the difference between git checkout and git clone?:
+                                                      14. What is the difference between fork, branch and clone?:
+                                                          15. What is the advantages of using git?:
+                                                              16. What is git rebase and how can it be used to resolve conflict in a feature branch before the merge?:
+                                                                  17. What are the differences, advantages, and disadvantages between git rebase and git merge?:
+                                                                      18. When should we use git stash?:
+                                                                          19. What is the function of git diff in git?:
+                                                                              20. How do you resolve conflicts in git?:
+                                                                                  21. Explain the steps of git local workflow:
+                                                                                      22. How do you view the commit history of the repository?:
+                                                                                          23. How do you prevent git from pushing important files, secrets, configuration files, and debug log files to the remote repository?:
+                                                                                              24. How do you setup and use SSH authentication to connect with github/remote repository?:
+                                                                                                  25. What are git hooks?:
