@@ -1,13 +1,25 @@
+
 1. What is git commit?:
 2. What is git stash?:
 3. What are the steps to unstage files and discard the changes in working directory?:
 4. What is git branch?:
 5. How do you check if git is insalled?:
+
 6. How do you know the status of your local repository and what other information does it show?:
+-By using the command Git status it will show you the status of your local repository it also shows you which changes have been staged, and which haven't.
+
 7. What are the different ways to add/stage files/changes to the git repository?:
+-By using the command <git add .> to add the files or changes to the repository. Or by using Github or Gitlab to add to the files and then clone the files to your local repository.
+
 8. Can we combine commands when working with commands in git? How?:
+-Yes by using the  git merge command Git merge integrates the feature branch with all of its commits back to the  master) branch.
+
 9. What is the difference between git pull and git fetch?:
+-Git Fetch  tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull brings the copy of the remote directory changes into the local repository
+
 10. How do you revert a previous commit in git?:
+By using the command: git revert 
+
 11. What is git cherry-pick?:
 12. What is the function of git push?:
 13. What is the difference between git checkout and git clone?:
