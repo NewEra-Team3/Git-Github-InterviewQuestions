@@ -8,11 +8,12 @@
 8. Can we combine commands when working with commands in git? How?:
 9. What is the difference between git pull and git fetch?:
 10. How do you revert a previous commit in git?:
-11. What is git cherry-pick?:
-12. What is the function of git push?:
-13. What is the difference between git checkout and git clone?:
-14. What is the difference between fork, branch and clone?:
-15. What is the advantages of using git?:
+11.  what is git cherry pick?: Cherry-picking in git means choosing a commit from one branch and applying it to another branch.
+12. What is the function of git push?: The git push command is used to upload local repository content to a remote repository
+13. What is the difference between git checkout and git clone?: The git checkout command may occasionally be confused with git clone . The difference between the     two commands is that clone works to fetch code from a remote repository,
+14. What is the difference between fork, branch and clone?: A fork creates a completely independent copy of Git repository. In contrast to a fork, 
+15. What is the advantages of using git?: Git branches are cheap and easy to merge
+
 16. What is git rebase and how can it be used to resolve conflict in a feature branch before the merge?:
 17. What are the differences, advantages, and disadvantages between git rebase and git merge?:
 18. When should we use git stash?:
