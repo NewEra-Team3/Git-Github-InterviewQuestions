@@ -1,12 +1,22 @@
+
 1. What is git commit?:
 2. What is git stash?:
 3. What are the steps to unstage files and discard the changes in working directory?:
 4. What is git branch?:
 5. How do you check if git is insalled?:
+
 6. How do you know the status of your local repository and what other information does it show?:
+-By using the command Git status it will show you the status of your local repository it also shows you which changes have been staged, and which haven't.
+
 7. What are the different ways to add/stage files/changes to the git repository?:
+-By using the command <git add .> to add the files or changes to the repository. Or by using Github or Gitlab to add to the files and then clone the files to your local repository.
+
 8. Can we combine commands when working with commands in git? How?:
+-Yes by using the  git merge command Git merge integrates the feature branch with all of its commits back to the  master) branch.
+
 9. What is the difference between git pull and git fetch?:
+-Git Fetch  tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull brings the copy of the remote directory changes into the local repository
+
 10. How do you revert a previous commit in git?:
 11. What is git cherry-pick?:
 12. What is the function of git push?:
@@ -16,7 +26,7 @@
 16. What is git rebase and how can it be used to resolve conflict in a feature branch before the merge?: 
   Ans #16
   "Git rebase is the process of moving or combining a sequence of commits to a new base commit.
-  You have to open the file that has conflict, remove the inserted markers to make it like you want, then do git add <file name>."
+
 17. What are the differences, advantages, and disadvantages between git rebase and git merge?:
   Ans #17
     "Git merge takes over from the local repositiry and merges into your working directory, it keeps all your commit messages, lines them up."
@@ -30,7 +40,17 @@
   Ans #20
     Under repository name, click pull request, near bottom of pull request, click resolve conflicts, then decide which changed you want to keep and delete the conflict markers, once you have resolved all your merge conflicts, click commit merge, then pull merge to merge all your pull requests.
 21. Explain the steps of git local workflow:
-22. How do you view the commit history of the repository?:
-23. How do you prevent git from pushing important files, secrets, configuration files, and debug log files to the remote repository?:
+-git clone <url code of remote repository>
+-git pull to get the most up to date changes from the remote repository to the local repository
+-git init to initialize the repository on your local machine
+-git checkout <name of branch outside of master> to switch to another branch before making changes 
+-git add . for any modified files to go to the staging area
+-git commit -m "message": message being a short description of what changes were made on the modified file and to move file from staging area to local repository
+22. How do you view the commit history of the repository?: 
+-git log
+23. How do you prevent git from pushing important files, secrets, configuration files, and debug log files to the remote repository?: 
+-adding the names of the files and folders thats to be witheld from push, into the ".gitignore" file 
 24. How do you setup and use SSH authentication to connect with github/remote repository?:
+-from the home directory, cd into .ssh/ folder and type in ssh-keygen. From there both a public and private key would generate. Use the cat command with the name of your publick key to view and copy the key itself. From that point, head to your github account, go to settings, select "SSH & GPG Keys" and click on the "new SSH key" button to paste in your public key. 
 25. What are git hooks?:
+-hidden shell scripts within a git repository used to automatically trigger internal behaviors and actions 
