@@ -1,3 +1,4 @@
+
 JOB
 A client ABC has assigned NewEra a job to write a code with 25 questions and 2 individual questions, we 
 need to create and build different parts of the questions and answer them on a YAML file.
@@ -10,9 +11,6 @@ Title: git question
 questions each in their working area and commit the code back to the remote repository.
 4 Each team member will create a pull request and assign 2 team members assigned by the team lead to review 
 and approve the code. If all is approved, the Engineer in charge of the task will merge it back to the Master branch 
-END OF TASK
-
-
 1. Engr. [Gerald] 1 to 5 — -JIRA Task ID DVPO-20
 2. Engr. [Chinwe] 6 to 10 — -JIRA Task ID DVPO-21
 3. Engr. [Adeleke] 11 to 15 — -JIRA Task ID DVPO-22
